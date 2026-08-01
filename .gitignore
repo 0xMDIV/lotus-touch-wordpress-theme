@@ -1,0 +1,16 @@
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Build / Cache
+node_modules/
+.cache/
+*.log
+*.tmp
+
+# Local-only WordPress files
+wp-config-local.php

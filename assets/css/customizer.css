@@ -1,0 +1,45 @@
+/* Lotus Touch - Customizer Tweaks */
+
+.wp-customizer .lotus-meta-box {
+    background: #f9f6fc;
+    border: 1px solid #e8dde5;
+    border-radius: 8px;
+    padding: 16px;
+}
+
+#customize-controls .lotus-price-row {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+#customize-controls .lotus-price-row input[type="text"] {
+    flex: 1;
+}
+
+#customize-controls .lotus-price-row input[name*="price"] {
+    flex: 0 0 100px;
+}
+
+#customize-controls .lotus-price-row select {
+    flex: 0 0 80px;
+}
+
+#lotus-price-add {
+    background: #8E5DA8 !important;
+    border-color: #6B3D85 !important;
+    color: #fff !important;
+    margin-top: 8px;
+}
+
+#lotus-price-add:hover {
+    background: #6B3D85 !important;
+}
+
+/* Better Customizer color picker labels */
+#accordion-section-lotus_colors .customize-control-title,
+#accordion-section-lotus_fonts .customize-control-title {
+    color: #6B3D85;
+    font-weight: 600;
+}
